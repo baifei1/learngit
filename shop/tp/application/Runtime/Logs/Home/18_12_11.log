@@ -1,0 +1,605 @@
+[ 2018-12-11T11:50:03+08:00 ] 127.0.0.1 /shop/tp/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( is_show = 1 and is_nav = 1 )  [ RunTime:0.0390s ]
+SQL: SELECT * FROM `category` INNER JOIN goods on category.cate_id = goods.cate_id   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 220 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 787 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 800 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:50:19+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Goods/goods_info/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods_attr` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods_attr` INNER JOIN attribute on goods_attr.attr_id=attribute.attr_id  WHERE ( goods_attr.goods_id ='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods_gallery` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `goods_gallery` WHERE ( goods_id = '1' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: category F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\375ed1816059603326d80e06b71bb1ed.php 第 93 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\375ed1816059603326d80e06b71bb1ed.php 第 1285 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\375ed1816059603326d80e06b71bb1ed.php 第 1298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-11T11:50:24+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Goods/get_sku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.1210s ]
+SQL: SELECT * FROM `products` WHERE ( attr_list ='1,4' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-11T11:50:26+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Cart/add_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE ( goods_id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `products` WHERE ( attr_list='1,4' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 95 行.
+
+[ 2018-12-11T11:50:31+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Cart/cart_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: t_price F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 145 行.
+NOTIC: [8] Undefined variable: t_num F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 146 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.048003s ]
+NOTIC: [8] Undefined variable: category F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 93 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 316 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:50:32+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-12-11T11:50:34+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login_do?auth=qq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:50:48+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `user` WHERE ( email = 'root' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:50:54+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( email = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-11T11:51:45+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:52:40+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( email = '3716@qq.com' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:52:46+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( email = '3716@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-11T11:52:54+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( email = '3716@qq.com' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:52:58+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login_do?auth=qq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:53:11+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:53:54+08:00 ] 127.0.0.1 /shop/tp/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE ( is_show = 1 and is_nav = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` INNER JOIN goods on category.cate_id = goods.cate_id   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 220 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 787 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\857cb80a7adc4d7e94f6a53f7fcbfd38.php 第 800 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:53:56+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Cart/cart_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: t_price F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 145 行.
+NOTIC: [8] Undefined variable: t_num F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 146 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.030001s ]
+NOTIC: [8] Undefined variable: category F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 93 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 316 行.
+NOTIC: [8] Undefined index: user F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.031001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-12-11T11:53:57+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:54:01+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( email = '3716@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: v F:\wamp64\www\no.4\shop\tp\application\Home\Controller\LoginController.class.php 第 205 行.
+NOTIC: [8] Undefined variable: v F:\wamp64\www\no.4\shop\tp\application\Home\Controller\LoginController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id ='3' and goods_id ='' and product_id = '' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cart` (`user_id`,`goods_id`,`product_sn`,`product_id`,`goods_name`,`goods_price`,`market_price`,`buy_number`,`goods_attr_id`,`goods_img`,`session_id`) VALUES ('3','1','a100002','1','iPhone X','4299','4999','1','1,4','./uploads/goods_thumb/74b48a2bedd4ada2399dfe34c8aae090.jpg','gbbtgu1egoj7ol0g0mjvsoidv7') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:54:02+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( is_show = 1 and is_nav = 1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` INNER JOIN goods on category.cate_id = goods.cate_id   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:54:02+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Index/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+ERR: 非法操作:basic
+
+[ 2018-12-11T11:54:02+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Index/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+ERR: 非法操作:basic
+
+[ 2018-12-11T11:54:04+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Cart/cart_list/user_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: t_price F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 128 行.
+NOTIC: [8] Undefined variable: t_num F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CartController.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT `attr_value` FROM `goods_attr` WHERE ( goods_attr_id ='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0010s ]
+SQL: SELECT `attr_id` FROM `goods_attr` WHERE ( goods_attr_id = '1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `attr_name` FROM `attribute` WHERE ( attr_id=13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `attr_value` FROM `goods_attr` WHERE ( goods_attr_id ='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `attr_id` FROM `goods_attr` WHERE ( goods_attr_id = '4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `attr_name` FROM `attribute` WHERE ( attr_id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: category F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\7d74ac59af393c8a989eeee296a22068.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:54:08+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/is_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `region` WHERE ( parent_id = 0  )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: category F:\wamp64\www\no.4\shop\tp\application\Runtime\Cache\Home\b89911f7ee8592ca292a29be5dfef847.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-11T11:54:13+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/get_region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `region` WHERE ( parent_id = '1'  )  [ RunTime:0.0000s ]
+
+[ 2018-12-11T11:54:14+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/get_region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( parent_id = '15'  )  [ RunTime:0.0000s ]
+
+[ 2018-12-11T11:54:15+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/get_region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `region` WHERE ( parent_id = '161'  )  [ RunTime:0.0010s ]
+
+[ 2018-12-11T11:54:16+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/get_region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `region` WHERE ( parent_id = '1702'  )  [ RunTime:0.0000s ]
+
+[ 2018-12-11T11:54:26+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/set_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: total_price F:\wamp64\www\no.4\shop\tp\application\Home\Controller\OrderController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: pay_name F:\wamp64\www\no.4\shop\tp\application\Home\Controller\OrderController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0320s ]
+SQL: INSERT INTO `order_info` (`order_sn`,`user_id`,`order_status`,`shipping_status`,`pay_status`,`message`,`pay_id`,`pay_name`,`goods_amount`,`money_paid`,`order_amount`,`add_time`,`pay_time`) VALUES ('20181211024903','3','0','0','0','嗯','',NULL,'4299','0','4299','1544500466','1544500466') [ RunTime:0.0270s ]
+
+[ 2018-12-11T11:54:26+08:00 ] 127.0.0.1 /shop/tp/index.php/Home/Order/getpayment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant CONTROILLER_NAME - assumed 'CONTROILLER_NAME' F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id = '3' )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count F:\wamp64\www\no.4\shop\tp\application\Home\Controller\CommonController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `order_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `order_info` WHERE ( user_id = '3' ) ORDER BY add_time asc LIMIT 1   [ RunTime:0.0190s ]
+ERR: Class 'Alipay' not found
+

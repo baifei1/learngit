@@ -1,0 +1,12 @@
+[ 2018-05-30T18:58:48+08:00 ] 127.0.0.1 /shop/tp/Public/Admin/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-30T18:58:48+08:00 ] 127.0.0.1 /shop/tp/Public/Admin/assets/i/app-icon72x72@2x.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+

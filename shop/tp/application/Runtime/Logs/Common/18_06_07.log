@@ -1,0 +1,516 @@
+[ 2018-06-07T10:38:51+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T10:39:04+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T10:41:11+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T10:41:29+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:09:01+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/AmazeUI-2.4.2/assets/css/amazeui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AmazeUI-2.4.2
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/AmazeUI-2.4.2/assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AmazeUI-2.4.2
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/AmazeUI-2.4.2/assets/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AmazeUI-2.4.2
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/css/demo.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/css/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Css
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/css/hmstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Css
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/AmazeUI-2.4.2/assets/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:AmazeUI-2.4.2
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:12+08:00 ] 127.0.0.1 /shop/tp/index.php/AmazeUI-2.4.2/assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:AmazeUI-2.4.2
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046800s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/ad2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:11:13+08:00 ] 127.0.0.1 /shop/tp/index.php/images/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/no-img_mid_.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/wdsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/chongzhi.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/weixin_code_145.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047002s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/no-img_mid_.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/wdsc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/chongzhi.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:14:40+08:00 ] 127.0.0.1 /shop/tp/index.php/images/weixin_code_145.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:23+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:15:46+08:00 ] 127.0.0.1 /shop/tp/Public/Home//shop/tp/Public/Home/images/ad4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T14:16:11+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:25:25+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:25:36+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:25:48+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:26:14+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:27:11+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:27:32+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:27:59+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:28:27+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:28:38+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:28:49+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:29:09+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:30:28+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:30:49+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:31:11+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:31:25+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:34:44+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:36:25+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:36:46+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:37:04+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:39:05+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:40:22+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T14:41:46+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T15:25:46+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T16:17:29+08:00 ] 127.0.0.1 /shop/tp/Public/uploads/goods_thumb/9d097208f5594b7edcc3aa98fa38601a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-06-07T16:57:06+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T19:32:29+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T19:32:31+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T20:15:43+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T20:15:44+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T20:41:25+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-07T20:41:26+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+

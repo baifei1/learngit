@@ -1,0 +1,18 @@
+[ 2018-06-29T08:55:42+08:00 ] ::1 /no.4/shop/tp/HoM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:HoM
+
+[ 2018-06-29T11:16:55+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-29T16:17:54+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+

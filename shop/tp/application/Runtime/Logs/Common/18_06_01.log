@@ -1,0 +1,6 @@
+[ 2018-06-01T08:43:44+08:00 ] 127.0.0.1 /shop/tp/index.php/shop/tp/index.php/Admin/Goods/goods_sku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shop
+

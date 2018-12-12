@@ -1,0 +1,188 @@
+<div class="admin-biaogelist">
+	
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-users"> 属性管理</ul>
+      
+      <dl class="am-icon-home" style="float: right;">当前位置： 首页 &gt; <a href="{:U('Type/type_list')}">分类列表</a></dl>
+      
+      <dl>
+       <a href="{:U('Attr/attr_add')}" class="am-btn am-btn-danger am-round am-btn-xs am-icon-plus">添加属性</a>
+      </dl>
+
+      <dl>
+     按类型搜索：<select name="" id="search">
+      <option value="">请选择...</option>
+      <foreach name ="type"  item="v">
+      <option value="{$v.goods_type_id}">{$v.type_name}</option>
+      </foreach>
+      </select>
+  
+      </dl>
+      <!--这里打开的是新页面-->
+      <script>
+      
+        $('#search').change(function(){
+          var id = $(this).val();
+          var tbody_list = $('#tbody_list');
+          if(id == ""){
+            return false;
+          }
+
+          $.ajax({
+            type:"post",
+            url:"__URL__/search",
+            data:{
+              id
+            },
+            dataType:"json",
+            success:function(msg){
+              if(msg.error ==0){
+                var str = "" ;
+
+                $.each(msg.content,function(k,vo){
+
+                  var index_type = vo.index_type ==2 ? '手工录入':'列表获取';
+                  var attr_values = vo.attr_values==null? "":vo.attr_values
+
+
+                str+= '<tr><td><input type="checkbox" class="son" value="'+vo.attr_id+'" name="check"></td><td class="am-hide-sm-only">'+vo.attr_id+'</td><td class="am-hide-sm-only">'+vo.attr_name+'</td><td class="am-hide-sm-only">'+vo.type_name+'</td><td class="am-hide-sm-only">'+index_type+'</td><td class="am-hide-sm-only">'+attr_values+'</td><td><div class="am-btn-toolbar"><div class="am-btn-group am-btn-group-xs"><a href="" class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-modal="{target: "#my-popups"}" title="修改订单"><span class="am-icon-pencil-square-o"></span></a><a href="" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" title="删除订单"><span class="am-icon-trash-o"></span></a></div></div></td></tr>'
+                  
+                })
+
+                $(tbody_list).html(str);
+              }
+
+            }
+          })
+        
+        })
+
+      
+    
+
+      </script>
+      
+    </div>
+
+
+    <form class="am-form am-g">
+          <table class="am-table am-table-bordered am-table-radius am-table-striped" width="100%" id="datalist">
+            
+              <tr class="am-success">
+                <td class="table-check"><input type="checkbox" id="xx" ></td>
+
+                <td class="table-id">ID</td>
+                <td class="table-title">属性名称</th>
+                <td class="table-author am-hide-sm-only">商品类型</td>           
+                <td class="table-author am-hide-sm-only">录入方式</td>           
+                <td class="table-author am-hide-sm-only">可选值列表</td>              
+                <td class="table-set" width="130px">操作</td>
+              </tr>
+           <tbody id="tbody_list">
+            <foreach name="attr_list" item="vo">
+              <tr>
+                <td><input type="checkbox" class="son" value="{$vo.attr_id}" name="check"></td>
+                <td class="am-hide-sm-only">{$vo.attr_id}</td>
+                <td class="am-hide-sm-only">{$vo.attr_name}</td>
+                <td class="am-hide-sm-only">{$vo.type_name}</td>
+                <td class="am-hide-sm-only"><if condition="$vo.index_type eq 2">手工录入<else/>列表获取</if></td>
+                <td class="am-hide-sm-only">{$vo.attr_values}</td>
+                <td>
+                      	
+                	<div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                    
+                      <a href="{:U('Brand/brand_edit')}?brand_id={$vo.brand_id}" class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-modal="{target: '#my-popups'}" title="修改订单"><span class="am-icon-pencil-square-o"></span></a>
+                      <a href="{:U('Brand/delete')}?brand_id={$vo.brand_id}" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" title="删除订单"><span class="am-icon-trash-o"></span></a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+             </foreach>
+           </tbody>
+          </table>
+          
+                 <div class="am-btn-group am-btn-group-xs">
+              <button type="button" class="am-btn am-btn-default" id="shan"><span class="am-icon-plus"></span> 删除</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 上架</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 下架</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 移动</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 保存</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-archive"></span> 移动</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> 删除</button>
+            </div>
+          
+          <ul class="am-pagination am-fr">              
+                <li>{$show}</li>
+              </ul>
+
+          <hr>
+          <p>注：.....</p>
+        </form>
+ 
+ 
+ 
+ 
+ <div class="foods">
+  <ul>
+    版权所有@2015. 模板收集自 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -  More Templates<a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+  </ul>
+  <dl>
+    <a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a>
+  </dl>
+</div>
+
+
+
+
+</div>
+
+<script type="text/javascript">
+
+$('#xx').click(function(){
+// alert($(this).prop("checked"));
+$(this).parents('table').find('.son').prop('checked',$(this).prop("checked"));
+})
+
+$('.son').click(function(){
+
+ if($(this).prop('checked')){
+  $(this).parents('table').find('#xx').prop('checked',$(this).prop('checked',true));
+ }
+
+//alert($(this).parents('tr').find("input[type='checkbox']:checked").size());
+ if($(this).parents('table').find("input[type='checkbox']:checked").size()==1){
+  $(this).parents('table').find('#xx').prop("checked",false);
+ }
+})
+
+
+$('#shan').click(function(){
+ 
+    var del = [];
+    $("input[type='checkbox']:checked").each(function(){
+      del.push($(this).val());
+    })
+   
+    if(del!=""){
+      if(confirm('确定要删除？')){
+    $.post("{:U('Brand/delete')}",{brand_id:del},function(da){
+      if(da == 1){
+        alert('删除失败');
+      }else{
+        alert('删除成功');
+        $("input[name='check']:checked").each(function(){
+          $(this).parents('tr').remove();
+        })
+      }
+      })
+
+      }
+
+    }else{ alert('没有选中数据')}//del大括号
+  })
+
+
+
+</script>>

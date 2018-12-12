@@ -1,0 +1,106 @@
+<div class="admin-biaogelist">
+	
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-users"> 分类管理</ul>
+      
+      <dl class="am-icon-home" style="float: right;">当前位置： 首页 &gt; <a href="#">分类列表</a></dl>
+      
+      <dl>
+       <a href="__URL__/cate_add" class="am-btn am-btn-danger am-round am-btn-xs am-icon-plus">添加分类</a>
+      </dl>
+      <!--这里打开的是新页面-->
+
+      
+    </div>
+
+
+    <form class="am-form am-g" action="__URL__/goods_sku" method="post">
+          <table class="am-table am-table-bordered am-table-radius am-table-striped" width="100%" id="datalist">
+            
+              <tr class="am-success">
+                <foreach name="attr_name" key="k" item="v">
+                <td>{$v}</td>
+                </foreach>
+                <td class="table-title">货号</th>
+                <td class="table-author am-hide-sm-only">SKU</td>
+                <td class="table-set" width="130px">操作</td>
+              </tr>
+           
+           
+              <tr>
+              <foreach name="attr_val" key="k" item="vs">
+                <td>
+              <select name="attr_list[{$k}][]" id="">
+              <foreach name="vs"  key="key" item="vv">
+              <option value="{$vv.goods_attr_id},{$vv.pro_price}">{$vv['attr_val']}</option>
+              </foreach>
+              </select>
+
+                </td>
+                </foreach>
+                <td><input type="text" name="product_sn[]"></td>
+                <td class="am-hide-sm-only"><input type="text" name="product_sku[]">
+                <input type="hidden" name="goods_id" value="{$goods_id}">
+                </td>
+              
+                <td>
+                      	
+                	<div class="am-btn-toolbar">
+                      <button type="button" class="add" title="删除订单"><span>[+]</span></button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+          </table>
+  <script>
+  
+    $('.add').click(function(){
+     
+      var html = $(this).parents('tr').html();
+      html = html.replace('add','del');
+      html = html.replace('[+]','[--]');
+      $(this).parents('tr').after("<tr>"+html+"</tr>")
+
+    })
+
+    $(document).on("click",".del",function(){
+      $(this).parents('tr').remove();
+    })
+
+
+
+  </script>
+                 <div class="am-btn-group am-btn-group-xs">
+              <button type="submit" class="am-btn am-btn-default" id="shan"><span class="am-icon-plus"></span>库存合并</button>
+             
+            </div>
+          
+          <ul class="am-pagination am-fr">              
+                <li>{$show}</li>
+              </ul>
+
+          <hr>
+          <p>注：.....</p>
+        </form>
+ 
+ 
+ 
+ 
+ <div class="foods">
+  <ul>
+    版权所有@2015. 模板收集自 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -  More Templates<a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+  </ul>
+  <dl>
+    <a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a>
+  </dl>
+</div>
+
+
+
+
+</div>
+
+
+
+</script>>

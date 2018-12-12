@@ -1,0 +1,18 @@
+[ 2018-06-11T15:30:07+08:00 ] ::1 /no.4/shop/tp/index.php/Hmoe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Hmoe
+
+[ 2018-06-11T15:31:51+08:00 ] ::1 /no.4/shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-11T15:31:52+08:00 ] ::1 /no.4/shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+

@@ -1,0 +1,91 @@
+<div class="admin-biaogelist">
+  
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-flag on">属性信息</ul>
+      
+      <dl class="am-icon-home" style="float: right;"> 当前位置： 首页 &gt; <a href="#">属性列表</a></dl>
+
+    </div>
+    <input type="hidden" name="id" value="id">
+    <div class="fbneirong">
+      <form class="am-form" method="post"  action="__URL__/attr_add" >
+        <div class="am-form-group am-cf">
+          <div class="zuo">属性名称：</div>
+          <div class="you">
+            <input class="am-input-sm" name="attr_name" id="doc-ipt-email-1" placeholder="请输入名称" type="text">
+          </div>
+        </div>
+       
+        <div class="am-form-group am-cf">
+          <div class="zuo">所属类型：</div>
+          <div class="you">
+          <select name="goods_type_id" id="">
+      <foreach name="type" item="v">
+      <option value="{$v.goods_type_id}">{$v.level}{$v.type_name}</option>
+      </foreach>
+      <input type="hidden" name="id">
+          </select>
+          </div>
+        </div>
+
+        
+        <div class="am-form-group am-cf">
+          <div class="zuo">属性是否可选：</div>
+          <div class="you">
+         <input type="radio" name="attr_index" value="0" checked="checked">唯一属性
+         <input type="radio" name="attr_index" value="1">单选属性
+          </div>
+        </div>
+          
+         <div class="am-form-group am-cf">
+          <div class="zuo">属性录入方式：</div>
+          <div class="you">
+         <input type="radio" name="index_type" value="2" checked="checked">手工录入
+         <input type="radio" name="index_type" value="3">列表读取 <span><font color="red">注：多个可选值以Enter回车键隔开</font></span>
+          </div>
+        </div>
+         <div class="am-form-group am-cf">
+          <div class="zuo">可选值列表：</div>
+          <div class="you">
+            <textarea class="" rows="2" id="doc-ta-1" name="attr_values"></textarea>
+          </div>
+
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="you" style="margin-left: 11%;">
+              <button type="submit" class="am-btn am-btn-success am-radius">确认添加</button>&nbsp;  » &nbsp; <button type="reset" class="am-btn am-btn-secondary am-radius">重置</button>
+
+          </div>
+        </div>
+      </form>
+    </div>
+
+  
+ 
+ <div class="foods">
+  <ul>
+    版权所有@2015. 模板收集自 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -  More Templates<a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+  </ul>
+  <dl>
+    <a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a>
+  </dl>
+</div>
+
+
+
+
+</div>
+
+<script>
+$('textarea').attr("disabled","disabled");
+  $("input[name='index_type']").click(function(){
+    var val = $(this).val();
+    if(val == 2){
+      $('textarea').attr("disabled","disabled");
+    }else{
+      $('textarea').removeAttr("disabled");
+    }
+  })
+
+
+</script>

@@ -1,0 +1,144 @@
+[ 2018-06-28T16:12:53+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T16:15:28+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T16:20:32+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T16:20:50+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T16:20:57+08:00 ] 127.0.0.1 /shop/tp/index.php/AD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AD
+
+[ 2018-06-28T16:24:15+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T16:35:04+08:00 ] 127.0.0.1 /shop/tp/index.php/AD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AD
+
+[ 2018-06-28T16:36:15+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:02:48+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:13:13+08:00 ] 127.0.0.1 /shop/tp/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:17:17+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:17:30+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:17:44+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:19:46+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:27:13+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T17:41:17+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T18:04:22+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T18:08:02+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T18:12:38+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T18:47:11+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T18:48:00+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T18:50:18+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T19:04:22+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+
+[ 2018-06-28T19:04:29+08:00 ] 127.0.0.1 /shop/tp/index.php/basic/js/quick_links.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Basic
+

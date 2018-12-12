@@ -1,0 +1,141 @@
+<div class="admin-biaogelist">
+	
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-users"> 分类管理</ul>
+      
+      <dl class="am-icon-home" style="float: right;">当前位置： 首页 &gt; <a href="#">分类列表</a></dl>
+      
+      <dl>
+       <a href="__URL__/cate_add" class="am-btn am-btn-danger am-round am-btn-xs am-icon-plus">添加分类</a>
+      </dl>
+      <!--这里打开的是新页面-->
+
+      
+    </div>
+
+
+    <form class="am-form am-g">
+          <table class="am-table am-table-bordered am-table-radius am-table-striped" width="100%" id="datalist">
+            
+              <tr class="am-success">
+                <td class="table-check"><input type="checkbox" id="xx" ></td>
+
+                <td class="table-id">ID</td>
+                <td class="table-title">分类名称</th>
+                <td class="table-author am-hide-sm-only">分类描述</td>
+                <td class="table-author am-hide-sm-only">所属分类</td>           
+                <td class="table-date am-hide-sm-only">展示顺序</td>
+                <td class="table-date am-hide-sm-only">是否导航展示</td>
+                <td class="table-date am-hide-sm-only">是否展示</td>
+                <td class="table-set" width="130px">操作</td>
+              </tr>
+           
+            <foreach name="cate" item="vo">
+              <tr>
+                <td><input type="checkbox" class="son" value="{$vo.cat_id}" name="check"></td>
+                <td>{$vo.cat_id}</td>
+                <td><a href="#">{$vo.level}{$vo.cat_name}</a></td>
+                <td class="am-hide-sm-only">{$vo.cat_desc}</td>
+                <td class="am-hide-sm-only">{$vo.parent_id}</td>
+                <td class="am-hide-sm-only">{$vo.sort}</td>
+                <td class="am-hide-sm-only"><if condition="$vo.is_nav eq 1" >是<else/>否</if></td>
+                <td class="am-hide-sm-only"><if condition="$vo.is_show eq 1">是<else/>否</if></td>
+                <td>
+                      	
+                	<div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                      <button class="am-btn am-btn-default am-btn-xs am-text-success am-round"><span class="am-icon-search" title="查看订单详情"></span> </button>
+                      <a href="{:U('Category/cate_edit')}?cat_id={$vo.cat_id}" class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-modal="{target: '#my-popups'}" title="修改订单"><span class="am-icon-pencil-square-o"></span></a>
+                      <a href="{:U('Category/cat_delete')}?cat_id={$vo.cat_id}" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" title="删除订单"><span class="am-icon-trash-o"></span></a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+             </foreach>
+
+          </table>
+          
+                 <div class="am-btn-group am-btn-group-xs">
+              <button type="button" class="am-btn am-btn-default" id="shan"><span class="am-icon-plus"></span> 删除</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 上架</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 下架</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 移动</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 保存</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-archive"></span> 移动</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> 删除</button>
+            </div>
+          
+          <ul class="am-pagination am-fr">              
+                <li>{$show}</li>
+              </ul>
+
+          <hr>
+          <p>注：.....</p>
+        </form>
+ 
+ 
+ 
+ 
+ <div class="foods">
+  <ul>
+    版权所有@2015. 模板收集自 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -  More Templates<a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+  </ul>
+  <dl>
+    <a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a>
+  </dl>
+</div>
+
+
+
+
+</div>
+
+<script type="text/javascript">
+
+$('#xx').click(function(){
+// alert($(this).prop("checked"));
+$(this).parents('table').find('.son').prop('checked',$(this).prop("checked"));
+})
+
+$('.son').click(function(){
+
+ if($(this).prop('checked')){
+  $(this).parents('table').find('#xx').prop('checked',$(this).prop('checked',true));
+ }
+
+//alert($(this).parents('tr').find("input[type='checkbox']:checked").size());
+ if($(this).parents('table').find("input[type='checkbox']:checked").size()==1){
+  $(this).parents('table').find('#xx').prop("checked",false);
+ }
+})
+
+
+$('#shan').click(function(){
+ 
+    var del = [];
+    $("input[type='checkbox']:checked").each(function(){
+      del.push($(this).val());
+    })
+   
+    if(del!=""){
+      if(confirm('确定要删除？')){
+    $.post("{:U('Brand/delete')}",{brand_id:del},function(da){
+      if(da == 1){
+        alert('删除失败');
+      }else{
+        alert('删除成功');
+        $("input[name='check']:checked").each(function(){
+          $(this).parents('tr').remove();
+        })
+      }
+      })
+
+      }
+
+    }else{ alert('没有选中数据')}//del大括号
+  })
+
+
+
+</script>>
